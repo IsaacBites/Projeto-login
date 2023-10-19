@@ -52,7 +52,6 @@ section#login > div#imagem{
 section#login > div#formulário{
     display: block;
     padding: 10px;
-
 }
 
 div#formulario > h1{
@@ -66,3 +65,53 @@ div#formulario > p{
     padding-left: 10px;
 }
 
+form > div.campo{
+    background-color: var(--cor2);
+    width: 80%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 80%;
+    height: 40px;
+    background-color: var(--cor1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #357270;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    color: #357270;
+    border: 1px solid #357270;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: auto;
+}
+
+form > a.botao:hover{
+    background-color: #5bc0bd;
+}
+
+form > a.botão > i{
+    font-size: 0.8em;
+}
